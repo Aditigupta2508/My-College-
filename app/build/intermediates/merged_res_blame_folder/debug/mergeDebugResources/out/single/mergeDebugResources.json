@@ -1,0 +1,294 @@
+[
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\layout_activity_sign_up.xml.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\layout\\activity_sign_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\drawable_rondedcorner.xml.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\drawable\\rondedcorner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\drawable_banner_placeholder.jpg.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\drawable\\banner_placeholder.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\layout_dialog_notification.xml.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\layout\\dialog_notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\drawable_partner5.jpeg.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\drawable\\partner5.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\drawable_college2.jpeg.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\drawable\\college2.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\font_anek_latin_thin.xml.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\font\\anek_latin_thin.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\drawable_phone_icon.jpg.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\drawable\\phone_icon.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\drawable_male_icon.jpg.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\drawable\\male_icon.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\drawable_baseline_close_24.xml.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\drawable\\baseline_close_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\drawable_partner8.jpeg.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\drawable\\partner8.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\layout_activity_forgot_password.xml.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\layout\\activity_forgot_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\drawable_edit_icon.png.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\drawable\\edit_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\drawable_gradient.xml.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\drawable\\gradient.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\drawable_hostelicon.jpeg.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\drawable\\hostelicon.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\drawable_cart_icon.xml.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\drawable\\cart_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\drawable_partner9.jpeg.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\drawable\\partner9.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\drawable_libraryicon.jpeg.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\drawable\\libraryicon.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\mipmap-hdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\drawable_college4.jpeg.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\drawable\\college4.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\drawable_partner2.jpeg.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\drawable\\partner2.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\drawable_email_icon.jpg.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\drawable\\email_icon.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\drawable_female_icon.jpg.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\drawable\\female_icon.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\drawable_ucet.jpeg.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\drawable\\ucet.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\drawable_baseline_person_24.xml.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\drawable\\baseline_person_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\drawable_partner3.jpeg.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\drawable\\partner3.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\drawable_extraroundcorner.xml.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\drawable\\extraroundcorner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\drawable_logout_icon.png.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\drawable\\logout_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\drawable_partner4.jpeg.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\drawable\\partner4.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\drawable_facebooklogo.png.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\drawable\\facebooklogo.png"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\drawable_college3.jpeg.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\drawable\\college3.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\drawable_address_icon.png.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\drawable\\address_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\layout_activity_edit_profile.xml.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\layout\\activity_edit_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\drawable_aluminiicon.jpeg.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\drawable\\aluminiicon.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\drawable_login_icon.jpg.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\drawable\\login_icon.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\layout_activity_profile.xml.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\layout\\activity_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\drawable_baseline_photo_camera_24.xml.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\drawable\\baseline_photo_camera_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\drawable_canteenicon.jpeg.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\drawable\\canteenicon.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\drawable_partner1.jpeg.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\drawable\\partner1.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\drawable_rounded_dialog.xml.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\drawable\\rounded_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-debug-72:/layout_activity_profile.xml.flat",
+        "source": "com.example.mycollegeucet.app-main-74:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\drawable_register_icon.png.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\drawable\\register_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\drawable_partner6.jpeg.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\drawable\\partner6.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\drawable_college1.jpeg.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\drawable\\college1.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\layout_activity_sign_in.xml.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\layout\\activity_sign_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\drawable_round_button.xml.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\drawable\\round_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\font_bai_jamjuree_extralight.xml.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\font\\bai_jamjuree_extralight.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\font_prociono.xml.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\font\\prociono.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\drawable_password_icon.png.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\drawable\\password_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\drawable_partner7.jpeg.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\drawable\\partner7.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\mipmap-mdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-debug-72:\\font_arvo_bold.xml.flat",
+        "source": "C:\\Users\\Anudip\\.gradle\\daemon\\8.14.2\\com.example.mycollegeucet.app-main-74:\\font\\arvo_bold.xml"
+    }
+]

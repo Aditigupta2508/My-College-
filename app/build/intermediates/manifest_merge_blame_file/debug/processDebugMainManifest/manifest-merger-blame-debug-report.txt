@@ -1,0 +1,631 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.mycollegeucet"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:6:5-78
+11-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:6:22-76
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:7:5-65
+12-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:7:22-62
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:8:5-67
+13-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:8:22-64
+14    <uses-permission
+14-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:9:5-10:38
+15        android:name="android.permission.READ_EXTERNAL_STORAGE"
+15-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:9:22-77
+16        android:maxSdkVersion="32" />
+16-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:10:9-35
+17    <uses-permission
+17-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:11:5-13:40
+18        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+18-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:11:22-78
+19        android:maxSdkVersion="32" />
+19-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:12:9-35
+20    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+20-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:14:5-70
+20-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:14:22-68
+21    <uses-permission android:name="android.permission.INTERNET" />
+21-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:8:5-67
+21-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:8:22-64
+22    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+22-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:16:5-70
+22-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:16:22-68
+23    <!-- Menyatakan bahwa aplikasi menggunakan fitur kamera -->
+24    <uses-feature android:name="android.hardware.camera" />
+24-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:18:5-60
+24-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:18:19-57
+25
+26    <queries>
+26-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\a63837a9d2766a9e552c6b5ceb355655\transformed\imagepicker-2.1\AndroidManifest.xml:9:5-19:15
+27
+28        <!-- Query Camera Packages -->
+29        <intent>
+29-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\a63837a9d2766a9e552c6b5ceb355655\transformed\imagepicker-2.1\AndroidManifest.xml:12:9-14:18
+30            <action android:name="android.media.action.IMAGE_CAPTURE" />
+30-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\a63837a9d2766a9e552c6b5ceb355655\transformed\imagepicker-2.1\AndroidManifest.xml:13:13-73
+30-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\a63837a9d2766a9e552c6b5ceb355655\transformed\imagepicker-2.1\AndroidManifest.xml:13:21-70
+31        </intent>
+32        <!-- Query Open Document -->
+33        <intent>
+33-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\a63837a9d2766a9e552c6b5ceb355655\transformed\imagepicker-2.1\AndroidManifest.xml:16:9-18:18
+34            <action android:name="android.intent.action.OPEN_DOCUMENT_TREE" />
+34-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\a63837a9d2766a9e552c6b5ceb355655\transformed\imagepicker-2.1\AndroidManifest.xml:17:13-79
+34-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\a63837a9d2766a9e552c6b5ceb355655\transformed\imagepicker-2.1\AndroidManifest.xml:17:21-76
+35        </intent>
+36    </queries>
+37
+38    <uses-permission android:name="android.permission.USE_BIOMETRIC" /> <!-- suppress DeprecatedClassUsageInspection -->
+38-->[androidx.biometric:biometric:1.1.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\4e30b45dfaba21de676f7392ce17a889\transformed\biometric-1.1.0\AndroidManifest.xml:24:5-72
+38-->[androidx.biometric:biometric:1.1.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\4e30b45dfaba21de676f7392ce17a889\transformed\biometric-1.1.0\AndroidManifest.xml:24:22-69
+39    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+39-->[androidx.biometric:biometric:1.1.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\4e30b45dfaba21de676f7392ce17a889\transformed\biometric-1.1.0\AndroidManifest.xml:27:5-74
+39-->[androidx.biometric:biometric:1.1.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\4e30b45dfaba21de676f7392ce17a889\transformed\biometric-1.1.0\AndroidManifest.xml:27:22-71
+40    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+40-->[com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\97b04e273b53d8bb4dc88a0e9fd8956a\transformed\recaptcha-18.6.1\AndroidManifest.xml:9:5-98
+40-->[com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\97b04e273b53d8bb4dc88a0e9fd8956a\transformed\recaptcha-18.6.1\AndroidManifest.xml:9:22-95
+41
+42    <permission
+42-->[androidx.core:core:1.16.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\b85a124549e7aac6408f61e57ffeeaf3\transformed\core-1.16.0\AndroidManifest.xml:22:5-24:47
+43        android:name="com.example.mycollegeucet.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+43-->[androidx.core:core:1.16.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\b85a124549e7aac6408f61e57ffeeaf3\transformed\core-1.16.0\AndroidManifest.xml:23:9-81
+44        android:protectionLevel="signature" />
+44-->[androidx.core:core:1.16.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\b85a124549e7aac6408f61e57ffeeaf3\transformed\core-1.16.0\AndroidManifest.xml:24:9-44
+45
+46    <uses-permission android:name="com.example.mycollegeucet.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+46-->[androidx.core:core:1.16.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\b85a124549e7aac6408f61e57ffeeaf3\transformed\core-1.16.0\AndroidManifest.xml:26:5-97
+46-->[androidx.core:core:1.16.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\b85a124549e7aac6408f61e57ffeeaf3\transformed\core-1.16.0\AndroidManifest.xml:26:22-94
+47
+48    <application
+48-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:20:5-111:19
+49        android:allowBackup="true"
+49-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:21:9-35
+50        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+50-->[androidx.core:core:1.16.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\b85a124549e7aac6408f61e57ffeeaf3\transformed\core-1.16.0\AndroidManifest.xml:28:18-86
+51        android:dataExtractionRules="@xml/data_extraction_rules"
+51-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:22:9-65
+52        android:debuggable="true"
+53        android:extractNativeLibs="false"
+54        android:fullBackupContent="@xml/backup_rules"
+54-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:23:9-54
+55        android:icon="@mipmap/ic_launcher"
+55-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:24:9-43
+56        android:label="MY COLLEGE"
+56-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:25:9-35
+57        android:roundIcon="@mipmap/ic_launcher_round"
+57-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:26:9-54
+58        android:supportsRtl="true"
+58-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:27:9-35
+59        android:testOnly="true"
+60        android:theme="@style/Theme.MYCOLLEGEUCET" >
+60-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:28:9-51
+61        <activity
+61-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:30:9-41:20
+62            android:name="com.example.mycollegeucet.view.main"
+62-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:31:13-38
+63            android:exported="true"
+63-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:32:13-36
+64            android:label="MY COLLEGE"
+64-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:33:13-39
+65            android:theme="@style/Theme.MYCOLLEGEUCET" >
+65-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:34:13-55
+66            <intent-filter>
+66-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:36:13-40:29
+67                <action android:name="android.intent.action.MAIN" />
+67-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:37:17-69
+67-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:37:25-66
+68
+69                <category android:name="android.intent.category.LAUNCHER" />
+69-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:39:17-77
+69-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:39:27-74
+70            </intent-filter>
+71        </activity>
+72        <activity
+72-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:42:9-44:40
+73            android:name="com.example.mycollegeucet.view.ForgotPassword"
+73-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:43:13-48
+74            android:exported="false" />
+74-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:44:13-37
+75        <activity
+75-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:46:9-48:40
+76            android:name="com.example.mycollegeucet.view.EditProfile"
+76-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:47:13-45
+77            android:exported="false" />
+77-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:48:13-37
+78        <activity
+78-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:50:9-52:40
+79            android:name="com.example.mycollegeucet.view.Profile"
+79-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:51:13-41
+80            android:exported="false" />
+80-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:52:13-37
+81        <activity
+81-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:54:9-56:40
+82            android:name="com.example.mycollegeucet.view.SignIn"
+82-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:55:13-40
+83            android:exported="false" />
+83-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:56:13-37
+84        <activity
+84-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:57:9-59:40
+85            android:name="com.example.mycollegeucet.view.SignUp"
+85-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:58:13-40
+86            android:exported="false" />
+86-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:59:13-37
+87        <activity
+87-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:60:9-62:40
+88            android:name="com.example.mycollegeucet.view.Home"
+88-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:61:13-38
+89            android:exported="false" />
+89-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:62:13-37
+90        <activity
+90-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:63:9-66:45
+91            android:name="com.example.mycollegeucet.view.Aboutus"
+91-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:64:13-41
+92            android:exported="false" />
+92-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:65:13-37
+93        <activity
+93-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:67:9-69:45
+94            android:name="com.example.mycollegeucet.view.Alumini"
+94-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:67:19-47
+95            android:exported="false" />
+95-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:68:13-37
+96        <activity
+96-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:70:9-72:45
+97            android:name="com.example.mycollegeucet.view.Hostel"
+97-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:70:19-46
+98            android:exported="false" />
+98-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:71:13-37
+99        <activity
+99-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:73:9-75:45
+100            android:name="com.example.mycollegeucet.view.Library"
+100-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:73:19-47
+101            android:exported="false" />
+101-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:74:13-37
+102        <activity
+102-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:76:9-78:45
+103            android:name="com.example.mycollegeucet.view.Conselling"
+103-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:76:19-50
+104            android:exported="false" />
+104-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:77:13-37
+105        <activity
+105-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:79:9-81:45
+106            android:name="com.example.mycollegeucet.view.Internship"
+106-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:79:19-50
+107            android:exported="false" />
+107-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:80:13-37
+108        <activity
+108-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:82:9-84:45
+109            android:name="com.example.mycollegeucet.view.Contactus"
+109-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:82:19-49
+110            android:exported="false" />
+110-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:83:13-37
+111        <activity
+111-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:85:9-87:45
+112            android:name="com.example.mycollegeucet.view.Placement"
+112-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:85:19-49
+113            android:exported="false" />
+113-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:86:13-37
+114        <activity
+114-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:88:9-90:45
+115            android:name="com.example.mycollegeucet.view.Canteen"
+115-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:88:19-47
+116            android:exported="false" />
+116-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:89:13-37
+117        <activity
+117-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:91:9-93:45
+118            android:name="com.example.mycollegeucet.view.Splash"
+118-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:91:19-46
+119            android:exported="false" />
+119-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:92:13-37
+120        <activity
+120-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:95:9-97:45
+121            android:name="com.example.mycollegeucet.view.Notification"
+121-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:95:19-52
+122            android:exported="false" />
+122-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:96:13-37
+123
+124        <meta-data
+124-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:99:9-101:57
+125            android:name="preloaded_fonts"
+125-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:100:13-43
+126            android:resource="@array/preloaded_fonts" />
+126-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:101:13-54
+127        <meta-data
+127-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:102:9-105:46
+128            android:name="google_api_key"
+128-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:103:13-42
+129            android:resource="@string/google_api_key" />
+129-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:104:13-54
+130        <meta-data
+130-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:107:9-109:69
+131            android:name="com.google.android.gms.version"
+131-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:108:13-58
+132            android:value="@integer/google_play_services_version" />
+132-->C:\Users\Anudip\AndroidStudioProjects\MYCOLLEGEUCET\app\src\main\AndroidManifest.xml:109:13-66
+133
+134        <activity
+134-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\a63837a9d2766a9e552c6b5ceb355655\transformed\imagepicker-2.1\AndroidManifest.xml:22:9-25:68
+135            android:name="com.github.dhaval2404.imagepicker.ImagePickerActivity"
+135-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\a63837a9d2766a9e552c6b5ceb355655\transformed\imagepicker-2.1\AndroidManifest.xml:23:13-81
+136            android:screenOrientation="unspecified"
+136-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\a63837a9d2766a9e552c6b5ceb355655\transformed\imagepicker-2.1\AndroidManifest.xml:24:13-52
+137            android:theme="@style/Theme.Transparent.ImagePicker" />
+137-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\a63837a9d2766a9e552c6b5ceb355655\transformed\imagepicker-2.1\AndroidManifest.xml:25:13-65
+138        <activity
+138-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\a63837a9d2766a9e552c6b5ceb355655\transformed\imagepicker-2.1\AndroidManifest.xml:26:9-29:72
+139            android:name="com.yalantis.ucrop.UCropActivity"
+139-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\a63837a9d2766a9e552c6b5ceb355655\transformed\imagepicker-2.1\AndroidManifest.xml:27:13-60
+140            android:screenOrientation="portrait"
+140-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\a63837a9d2766a9e552c6b5ceb355655\transformed\imagepicker-2.1\AndroidManifest.xml:28:13-49
+141            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+141-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\a63837a9d2766a9e552c6b5ceb355655\transformed\imagepicker-2.1\AndroidManifest.xml:29:13-69
+142
+143        <provider
+143-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\a63837a9d2766a9e552c6b5ceb355655\transformed\imagepicker-2.1\AndroidManifest.xml:31:9-39:20
+144            android:name="com.github.dhaval2404.imagepicker.ImagePickerFileProvider"
+144-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\a63837a9d2766a9e552c6b5ceb355655\transformed\imagepicker-2.1\AndroidManifest.xml:32:13-85
+145            android:authorities="com.example.mycollegeucet.imagepicker.provider"
+145-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\a63837a9d2766a9e552c6b5ceb355655\transformed\imagepicker-2.1\AndroidManifest.xml:33:13-72
+146            android:exported="false"
+146-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\a63837a9d2766a9e552c6b5ceb355655\transformed\imagepicker-2.1\AndroidManifest.xml:34:13-37
+147            android:grantUriPermissions="true" >
+147-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\a63837a9d2766a9e552c6b5ceb355655\transformed\imagepicker-2.1\AndroidManifest.xml:35:13-47
+148            <meta-data
+148-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\a63837a9d2766a9e552c6b5ceb355655\transformed\imagepicker-2.1\AndroidManifest.xml:36:13-38:71
+149                android:name="android.support.FILE_PROVIDER_PATHS"
+149-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\a63837a9d2766a9e552c6b5ceb355655\transformed\imagepicker-2.1\AndroidManifest.xml:37:17-67
+150                android:resource="@xml/image_picker_provider_paths" />
+150-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\a63837a9d2766a9e552c6b5ceb355655\transformed\imagepicker-2.1\AndroidManifest.xml:38:17-68
+151        </provider>
+152
+153        <service
+153-->[com.google.firebase:firebase-auth-ktx:23.2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\0c9138a6415492c83f72442705c5b3ea\transformed\firebase-auth-ktx-23.2.1\AndroidManifest.xml:8:9-14:19
+154            android:name="com.google.firebase.components.ComponentDiscoveryService"
+154-->[com.google.firebase:firebase-auth-ktx:23.2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\0c9138a6415492c83f72442705c5b3ea\transformed\firebase-auth-ktx-23.2.1\AndroidManifest.xml:9:13-84
+155            android:directBootAware="true"
+155-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\7fbafa80ba47a944ec0705ba9b9096a0\transformed\firebase-common-21.0.0\AndroidManifest.xml:32:13-43
+156            android:exported="false" >
+156-->[com.google.firebase:firebase-auth-ktx:23.2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\0c9138a6415492c83f72442705c5b3ea\transformed\firebase-auth-ktx-23.2.1\AndroidManifest.xml:10:13-37
+157            <meta-data
+157-->[com.google.firebase:firebase-auth-ktx:23.2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\0c9138a6415492c83f72442705c5b3ea\transformed\firebase-auth-ktx-23.2.1\AndroidManifest.xml:11:13-13:85
+158                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthLegacyRegistrar"
+158-->[com.google.firebase:firebase-auth-ktx:23.2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\0c9138a6415492c83f72442705c5b3ea\transformed\firebase-auth-ktx-23.2.1\AndroidManifest.xml:12:17-119
+159                android:value="com.google.firebase.components.ComponentRegistrar" />
+159-->[com.google.firebase:firebase-auth-ktx:23.2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\0c9138a6415492c83f72442705c5b3ea\transformed\firebase-auth-ktx-23.2.1\AndroidManifest.xml:13:17-82
+160            <meta-data
+160-->[com.google.firebase:firebase-auth:23.2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\6d9b2cd48f2e207b48de6ac55920df40\transformed\firebase-auth-23.2.1\AndroidManifest.xml:69:13-71:85
+161                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+161-->[com.google.firebase:firebase-auth:23.2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\6d9b2cd48f2e207b48de6ac55920df40\transformed\firebase-auth-23.2.1\AndroidManifest.xml:70:17-109
+162                android:value="com.google.firebase.components.ComponentRegistrar" />
+162-->[com.google.firebase:firebase-auth:23.2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\6d9b2cd48f2e207b48de6ac55920df40\transformed\firebase-auth-23.2.1\AndroidManifest.xml:71:17-82
+163            <meta-data
+163-->[com.google.firebase:firebase-firestore-ktx:25.1.4] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\19cbb94bfa0b39eb5cc29af617f26ba1\transformed\firebase-firestore-ktx-25.1.4\AndroidManifest.xml:12:13-14:85
+164                android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreLegacyRegistrar"
+164-->[com.google.firebase:firebase-firestore-ktx:25.1.4] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\19cbb94bfa0b39eb5cc29af617f26ba1\transformed\firebase-firestore-ktx-25.1.4\AndroidManifest.xml:13:17-129
+165                android:value="com.google.firebase.components.ComponentRegistrar" />
+165-->[com.google.firebase:firebase-firestore-ktx:25.1.4] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\19cbb94bfa0b39eb5cc29af617f26ba1\transformed\firebase-firestore-ktx-25.1.4\AndroidManifest.xml:14:17-82
+166            <meta-data
+166-->[com.google.firebase:firebase-firestore:25.1.4] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\d98036aebe5d8ddccdd1191aec5d1825\transformed\firebase-firestore-25.1.4\AndroidManifest.xml:17:13-19:85
+167                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+167-->[com.google.firebase:firebase-firestore:25.1.4] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\d98036aebe5d8ddccdd1191aec5d1825\transformed\firebase-firestore-25.1.4\AndroidManifest.xml:18:17-122
+168                android:value="com.google.firebase.components.ComponentRegistrar" />
+168-->[com.google.firebase:firebase-firestore:25.1.4] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\d98036aebe5d8ddccdd1191aec5d1825\transformed\firebase-firestore-25.1.4\AndroidManifest.xml:19:17-82
+169            <meta-data
+169-->[com.google.firebase:firebase-firestore:25.1.4] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\d98036aebe5d8ddccdd1191aec5d1825\transformed\firebase-firestore-25.1.4\AndroidManifest.xml:20:13-22:85
+170                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+170-->[com.google.firebase:firebase-firestore:25.1.4] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\d98036aebe5d8ddccdd1191aec5d1825\transformed\firebase-firestore-25.1.4\AndroidManifest.xml:21:17-111
+171                android:value="com.google.firebase.components.ComponentRegistrar" />
+171-->[com.google.firebase:firebase-firestore:25.1.4] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\d98036aebe5d8ddccdd1191aec5d1825\transformed\firebase-firestore-25.1.4\AndroidManifest.xml:22:17-82
+172            <meta-data
+172-->[com.google.firebase:firebase-storage-ktx:21.0.2] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\44356b60dff9e63bbb0462f2616e9cc5\transformed\firebase-storage-ktx-21.0.2\AndroidManifest.xml:12:13-14:85
+173                android:name="com.google.firebase.components:com.google.firebase.storage.ktx.FirebaseStorageLegacyRegistrar"
+173-->[com.google.firebase:firebase-storage-ktx:21.0.2] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\44356b60dff9e63bbb0462f2616e9cc5\transformed\firebase-storage-ktx-21.0.2\AndroidManifest.xml:13:17-125
+174                android:value="com.google.firebase.components.ComponentRegistrar" />
+174-->[com.google.firebase:firebase-storage-ktx:21.0.2] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\44356b60dff9e63bbb0462f2616e9cc5\transformed\firebase-storage-ktx-21.0.2\AndroidManifest.xml:14:17-82
+175            <meta-data
+175-->[com.google.firebase:firebase-storage:21.0.2] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\07bdefb56882405ac1354bff8f71fd88\transformed\firebase-storage-21.0.2\AndroidManifest.xml:30:13-32:85
+176                android:name="com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar"
+176-->[com.google.firebase:firebase-storage:21.0.2] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\07bdefb56882405ac1354bff8f71fd88\transformed\firebase-storage-21.0.2\AndroidManifest.xml:31:17-118
+177                android:value="com.google.firebase.components.ComponentRegistrar" />
+177-->[com.google.firebase:firebase-storage:21.0.2] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\07bdefb56882405ac1354bff8f71fd88\transformed\firebase-storage-21.0.2\AndroidManifest.xml:32:17-82
+178            <meta-data
+178-->[com.google.firebase:firebase-storage:21.0.2] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\07bdefb56882405ac1354bff8f71fd88\transformed\firebase-storage-21.0.2\AndroidManifest.xml:33:13-35:85
+179                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+179-->[com.google.firebase:firebase-storage:21.0.2] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\07bdefb56882405ac1354bff8f71fd88\transformed\firebase-storage-21.0.2\AndroidManifest.xml:34:17-107
+180                android:value="com.google.firebase.components.ComponentRegistrar" />
+180-->[com.google.firebase:firebase-storage:21.0.2] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\07bdefb56882405ac1354bff8f71fd88\transformed\firebase-storage-21.0.2\AndroidManifest.xml:35:17-82
+181            <meta-data
+181-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\593661894f87cf4c5df6a9f4a62a0478\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:25:13-27:85
+182                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar"
+182-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\593661894f87cf4c5df6a9f4a62a0478\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:26:17-120
+183                android:value="com.google.firebase.components.ComponentRegistrar" />
+183-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\593661894f87cf4c5df6a9f4a62a0478\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:27:17-82
+184            <meta-data
+184-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\593661894f87cf4c5df6a9f4a62a0478\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:28:13-30:85
+185                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
+185-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\593661894f87cf4c5df6a9f4a62a0478\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:29:17-117
+186                android:value="com.google.firebase.components.ComponentRegistrar" />
+186-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\593661894f87cf4c5df6a9f4a62a0478\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:30:17-82
+187            <meta-data
+187-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\83e756713f5091347f393142f63da2ad\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
+188                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+188-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\83e756713f5091347f393142f63da2ad\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
+189                android:value="com.google.firebase.components.ComponentRegistrar" />
+189-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\83e756713f5091347f393142f63da2ad\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
+190            <meta-data
+190-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\7fbafa80ba47a944ec0705ba9b9096a0\transformed\firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
+191                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+191-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\7fbafa80ba47a944ec0705ba9b9096a0\transformed\firebase-common-21.0.0\AndroidManifest.xml:36:17-109
+192                android:value="com.google.firebase.components.ComponentRegistrar" />
+192-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\7fbafa80ba47a944ec0705ba9b9096a0\transformed\firebase-common-21.0.0\AndroidManifest.xml:37:17-82
+193        </service>
+194
+195        <activity
+195-->[com.google.firebase:firebase-auth:23.2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\6d9b2cd48f2e207b48de6ac55920df40\transformed\firebase-auth-23.2.1\AndroidManifest.xml:29:9-46:20
+196            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+196-->[com.google.firebase:firebase-auth:23.2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\6d9b2cd48f2e207b48de6ac55920df40\transformed\firebase-auth-23.2.1\AndroidManifest.xml:30:13-80
+197            android:excludeFromRecents="true"
+197-->[com.google.firebase:firebase-auth:23.2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\6d9b2cd48f2e207b48de6ac55920df40\transformed\firebase-auth-23.2.1\AndroidManifest.xml:31:13-46
+198            android:exported="true"
+198-->[com.google.firebase:firebase-auth:23.2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\6d9b2cd48f2e207b48de6ac55920df40\transformed\firebase-auth-23.2.1\AndroidManifest.xml:32:13-36
+199            android:launchMode="singleTask"
+199-->[com.google.firebase:firebase-auth:23.2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\6d9b2cd48f2e207b48de6ac55920df40\transformed\firebase-auth-23.2.1\AndroidManifest.xml:33:13-44
+200            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+200-->[com.google.firebase:firebase-auth:23.2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\6d9b2cd48f2e207b48de6ac55920df40\transformed\firebase-auth-23.2.1\AndroidManifest.xml:34:13-72
+201            <intent-filter>
+201-->[com.google.firebase:firebase-auth:23.2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\6d9b2cd48f2e207b48de6ac55920df40\transformed\firebase-auth-23.2.1\AndroidManifest.xml:35:13-45:29
+202                <action android:name="android.intent.action.VIEW" />
+202-->[com.google.firebase:firebase-auth:23.2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\6d9b2cd48f2e207b48de6ac55920df40\transformed\firebase-auth-23.2.1\AndroidManifest.xml:36:17-69
+202-->[com.google.firebase:firebase-auth:23.2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\6d9b2cd48f2e207b48de6ac55920df40\transformed\firebase-auth-23.2.1\AndroidManifest.xml:36:25-66
+203
+204                <category android:name="android.intent.category.DEFAULT" />
+204-->[com.google.firebase:firebase-auth:23.2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\6d9b2cd48f2e207b48de6ac55920df40\transformed\firebase-auth-23.2.1\AndroidManifest.xml:38:17-76
+204-->[com.google.firebase:firebase-auth:23.2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\6d9b2cd48f2e207b48de6ac55920df40\transformed\firebase-auth-23.2.1\AndroidManifest.xml:38:27-73
+205                <category android:name="android.intent.category.BROWSABLE" />
+205-->[com.google.firebase:firebase-auth:23.2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\6d9b2cd48f2e207b48de6ac55920df40\transformed\firebase-auth-23.2.1\AndroidManifest.xml:39:17-78
+205-->[com.google.firebase:firebase-auth:23.2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\6d9b2cd48f2e207b48de6ac55920df40\transformed\firebase-auth-23.2.1\AndroidManifest.xml:39:27-75
+206
+207                <data
+207-->[com.google.firebase:firebase-auth:23.2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\6d9b2cd48f2e207b48de6ac55920df40\transformed\firebase-auth-23.2.1\AndroidManifest.xml:41:17-44:51
+208                    android:host="firebase.auth"
+208-->[com.google.firebase:firebase-auth:23.2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\6d9b2cd48f2e207b48de6ac55920df40\transformed\firebase-auth-23.2.1\AndroidManifest.xml:42:21-49
+209                    android:path="/"
+209-->[com.google.firebase:firebase-auth:23.2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\6d9b2cd48f2e207b48de6ac55920df40\transformed\firebase-auth-23.2.1\AndroidManifest.xml:43:21-37
+210                    android:scheme="genericidp" />
+210-->[com.google.firebase:firebase-auth:23.2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\6d9b2cd48f2e207b48de6ac55920df40\transformed\firebase-auth-23.2.1\AndroidManifest.xml:44:21-48
+211            </intent-filter>
+212        </activity>
+213        <activity
+213-->[com.google.firebase:firebase-auth:23.2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\6d9b2cd48f2e207b48de6ac55920df40\transformed\firebase-auth-23.2.1\AndroidManifest.xml:47:9-64:20
+214            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+214-->[com.google.firebase:firebase-auth:23.2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\6d9b2cd48f2e207b48de6ac55920df40\transformed\firebase-auth-23.2.1\AndroidManifest.xml:48:13-79
+215            android:excludeFromRecents="true"
+215-->[com.google.firebase:firebase-auth:23.2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\6d9b2cd48f2e207b48de6ac55920df40\transformed\firebase-auth-23.2.1\AndroidManifest.xml:49:13-46
+216            android:exported="true"
+216-->[com.google.firebase:firebase-auth:23.2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\6d9b2cd48f2e207b48de6ac55920df40\transformed\firebase-auth-23.2.1\AndroidManifest.xml:50:13-36
+217            android:launchMode="singleTask"
+217-->[com.google.firebase:firebase-auth:23.2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\6d9b2cd48f2e207b48de6ac55920df40\transformed\firebase-auth-23.2.1\AndroidManifest.xml:51:13-44
+218            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+218-->[com.google.firebase:firebase-auth:23.2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\6d9b2cd48f2e207b48de6ac55920df40\transformed\firebase-auth-23.2.1\AndroidManifest.xml:52:13-72
+219            <intent-filter>
+219-->[com.google.firebase:firebase-auth:23.2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\6d9b2cd48f2e207b48de6ac55920df40\transformed\firebase-auth-23.2.1\AndroidManifest.xml:53:13-63:29
+220                <action android:name="android.intent.action.VIEW" />
+220-->[com.google.firebase:firebase-auth:23.2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\6d9b2cd48f2e207b48de6ac55920df40\transformed\firebase-auth-23.2.1\AndroidManifest.xml:36:17-69
+220-->[com.google.firebase:firebase-auth:23.2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\6d9b2cd48f2e207b48de6ac55920df40\transformed\firebase-auth-23.2.1\AndroidManifest.xml:36:25-66
+221
+222                <category android:name="android.intent.category.DEFAULT" />
+222-->[com.google.firebase:firebase-auth:23.2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\6d9b2cd48f2e207b48de6ac55920df40\transformed\firebase-auth-23.2.1\AndroidManifest.xml:38:17-76
+222-->[com.google.firebase:firebase-auth:23.2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\6d9b2cd48f2e207b48de6ac55920df40\transformed\firebase-auth-23.2.1\AndroidManifest.xml:38:27-73
+223                <category android:name="android.intent.category.BROWSABLE" />
+223-->[com.google.firebase:firebase-auth:23.2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\6d9b2cd48f2e207b48de6ac55920df40\transformed\firebase-auth-23.2.1\AndroidManifest.xml:39:17-78
+223-->[com.google.firebase:firebase-auth:23.2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\6d9b2cd48f2e207b48de6ac55920df40\transformed\firebase-auth-23.2.1\AndroidManifest.xml:39:27-75
+224
+225                <data
+225-->[com.google.firebase:firebase-auth:23.2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\6d9b2cd48f2e207b48de6ac55920df40\transformed\firebase-auth-23.2.1\AndroidManifest.xml:41:17-44:51
+226                    android:host="firebase.auth"
+226-->[com.google.firebase:firebase-auth:23.2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\6d9b2cd48f2e207b48de6ac55920df40\transformed\firebase-auth-23.2.1\AndroidManifest.xml:42:21-49
+227                    android:path="/"
+227-->[com.google.firebase:firebase-auth:23.2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\6d9b2cd48f2e207b48de6ac55920df40\transformed\firebase-auth-23.2.1\AndroidManifest.xml:43:21-37
+228                    android:scheme="recaptcha" />
+228-->[com.google.firebase:firebase-auth:23.2.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\6d9b2cd48f2e207b48de6ac55920df40\transformed\firebase-auth-23.2.1\AndroidManifest.xml:44:21-48
+229            </intent-filter>
+230        </activity>
+231
+232        <service
+232-->[androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\0f1688886c8ed4744dfa1360cf088894\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:24:9-32:19
+233            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
+233-->[androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\0f1688886c8ed4744dfa1360cf088894\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:25:13-94
+234            android:enabled="true"
+234-->[androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\0f1688886c8ed4744dfa1360cf088894\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:26:13-35
+235            android:exported="false" >
+235-->[androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\0f1688886c8ed4744dfa1360cf088894\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:27:13-37
+236            <meta-data
+236-->[androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\0f1688886c8ed4744dfa1360cf088894\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:29:13-31:104
+237                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
+237-->[androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\0f1688886c8ed4744dfa1360cf088894\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:30:17-76
+238                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl" />
+238-->[androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\0f1688886c8ed4744dfa1360cf088894\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:31:17-101
+239        </service>
+240
+241        <activity
+241-->[androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\0f1688886c8ed4744dfa1360cf088894\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:34:9-41:20
+242            android:name="androidx.credentials.playservices.HiddenActivity"
+242-->[androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\0f1688886c8ed4744dfa1360cf088894\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:35:13-76
+243            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+243-->[androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\0f1688886c8ed4744dfa1360cf088894\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:36:13-87
+244            android:enabled="true"
+244-->[androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\0f1688886c8ed4744dfa1360cf088894\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:37:13-35
+245            android:exported="false"
+245-->[androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\0f1688886c8ed4744dfa1360cf088894\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:38:13-37
+246            android:fitsSystemWindows="true"
+246-->[androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\0f1688886c8ed4744dfa1360cf088894\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:39:13-45
+247            android:theme="@style/Theme.Hidden" >
+247-->[androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\0f1688886c8ed4744dfa1360cf088894\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:40:13-48
+248        </activity>
+249        <activity
+249-->[androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\0f1688886c8ed4744dfa1360cf088894\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:42:9-49:20
+250            android:name="androidx.credentials.playservices.IdentityCredentialApiHiddenActivity"
+250-->[androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\0f1688886c8ed4744dfa1360cf088894\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:43:13-97
+251            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+251-->[androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\0f1688886c8ed4744dfa1360cf088894\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:44:13-87
+252            android:enabled="true"
+252-->[androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\0f1688886c8ed4744dfa1360cf088894\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:45:13-35
+253            android:exported="false"
+253-->[androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\0f1688886c8ed4744dfa1360cf088894\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:46:13-37
+254            android:fitsSystemWindows="true"
+254-->[androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\0f1688886c8ed4744dfa1360cf088894\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:47:13-45
+255            android:theme="@style/Theme.Hidden" >
+255-->[androidx.credentials:credentials-play-services-auth:1.5.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\0f1688886c8ed4744dfa1360cf088894\transformed\credentials-play-services-auth-1.5.0\AndroidManifest.xml:48:13-48
+256        </activity>
+257        <activity
+257-->[com.google.android.gms:play-services-auth:21.1.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\eb94c8426338ac5b4989c2ffe31a70dc\transformed\play-services-auth-21.1.1\AndroidManifest.xml:23:9-27:75
+258            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+258-->[com.google.android.gms:play-services-auth:21.1.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\eb94c8426338ac5b4989c2ffe31a70dc\transformed\play-services-auth-21.1.1\AndroidManifest.xml:24:13-93
+259            android:excludeFromRecents="true"
+259-->[com.google.android.gms:play-services-auth:21.1.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\eb94c8426338ac5b4989c2ffe31a70dc\transformed\play-services-auth-21.1.1\AndroidManifest.xml:25:13-46
+260            android:exported="false"
+260-->[com.google.android.gms:play-services-auth:21.1.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\eb94c8426338ac5b4989c2ffe31a70dc\transformed\play-services-auth-21.1.1\AndroidManifest.xml:26:13-37
+261            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+261-->[com.google.android.gms:play-services-auth:21.1.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\eb94c8426338ac5b4989c2ffe31a70dc\transformed\play-services-auth-21.1.1\AndroidManifest.xml:27:13-72
+262        <!--
+263            Service handling Google Sign-In user revocation. For apps that do not integrate with
+264            Google Sign-In, this service will never be started.
+265        -->
+266        <service
+266-->[com.google.android.gms:play-services-auth:21.1.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\eb94c8426338ac5b4989c2ffe31a70dc\transformed\play-services-auth-21.1.1\AndroidManifest.xml:33:9-37:51
+267            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+267-->[com.google.android.gms:play-services-auth:21.1.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\eb94c8426338ac5b4989c2ffe31a70dc\transformed\play-services-auth-21.1.1\AndroidManifest.xml:34:13-89
+268            android:exported="true"
+268-->[com.google.android.gms:play-services-auth:21.1.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\eb94c8426338ac5b4989c2ffe31a70dc\transformed\play-services-auth-21.1.1\AndroidManifest.xml:35:13-36
+269            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+269-->[com.google.android.gms:play-services-auth:21.1.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\eb94c8426338ac5b4989c2ffe31a70dc\transformed\play-services-auth-21.1.1\AndroidManifest.xml:36:13-107
+270            android:visibleToInstantApps="true" />
+270-->[com.google.android.gms:play-services-auth:21.1.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\eb94c8426338ac5b4989c2ffe31a70dc\transformed\play-services-auth-21.1.1\AndroidManifest.xml:37:13-48
+271
+272        <activity
+272-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\29289049fc47bf96152a736fa51ce484\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+273            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+273-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\29289049fc47bf96152a736fa51ce484\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+274            android:exported="false"
+274-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\29289049fc47bf96152a736fa51ce484\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+275            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+275-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\29289049fc47bf96152a736fa51ce484\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+276
+277        <provider
+277-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\7fbafa80ba47a944ec0705ba9b9096a0\transformed\firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
+278            android:name="com.google.firebase.provider.FirebaseInitProvider"
+278-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\7fbafa80ba47a944ec0705ba9b9096a0\transformed\firebase-common-21.0.0\AndroidManifest.xml:24:13-77
+279            android:authorities="com.example.mycollegeucet.firebaseinitprovider"
+279-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\7fbafa80ba47a944ec0705ba9b9096a0\transformed\firebase-common-21.0.0\AndroidManifest.xml:25:13-72
+280            android:directBootAware="true"
+280-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\7fbafa80ba47a944ec0705ba9b9096a0\transformed\firebase-common-21.0.0\AndroidManifest.xml:26:13-43
+281            android:exported="false"
+281-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\7fbafa80ba47a944ec0705ba9b9096a0\transformed\firebase-common-21.0.0\AndroidManifest.xml:27:13-37
+282            android:initOrder="100" />
+282-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\7fbafa80ba47a944ec0705ba9b9096a0\transformed\firebase-common-21.0.0\AndroidManifest.xml:28:13-36
+283
+284        <activity
+284-->[androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\a1c89f41a12f3a4a922864898f4343dc\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+285            android:name="androidx.compose.ui.tooling.PreviewActivity"
+285-->[androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\a1c89f41a12f3a4a922864898f4343dc\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+286            android:exported="true" />
+286-->[androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\a1c89f41a12f3a4a922864898f4343dc\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+287        <activity
+287-->[androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\2efcd893a74461f232fdf8a1c0785a7c\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:23:9-25:39
+288            android:name="androidx.activity.ComponentActivity"
+288-->[androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\2efcd893a74461f232fdf8a1c0785a7c\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:24:13-63
+289            android:exported="true" />
+289-->[androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\2efcd893a74461f232fdf8a1c0785a7c\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:25:13-36
+290
+291        <provider
+291-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\b16441dd197e59298d35fe0efbad345f\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+292            android:name="androidx.startup.InitializationProvider"
+292-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\b16441dd197e59298d35fe0efbad345f\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+293            android:authorities="com.example.mycollegeucet.androidx-startup"
+293-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\b16441dd197e59298d35fe0efbad345f\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+294            android:exported="false" >
+294-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\b16441dd197e59298d35fe0efbad345f\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+295            <meta-data
+295-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\b16441dd197e59298d35fe0efbad345f\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+296                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+296-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\b16441dd197e59298d35fe0efbad345f\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+297                android:value="androidx.startup" />
+297-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\b16441dd197e59298d35fe0efbad345f\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+298            <meta-data
+298-->[androidx.lifecycle:lifecycle-process:2.9.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\658b21c827c374e5960f1394607598fd\transformed\lifecycle-process-2.9.1\AndroidManifest.xml:29:13-31:52
+299                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+299-->[androidx.lifecycle:lifecycle-process:2.9.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\658b21c827c374e5960f1394607598fd\transformed\lifecycle-process-2.9.1\AndroidManifest.xml:30:17-78
+300                android:value="androidx.startup" />
+300-->[androidx.lifecycle:lifecycle-process:2.9.1] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\658b21c827c374e5960f1394607598fd\transformed\lifecycle-process-2.9.1\AndroidManifest.xml:31:17-49
+301            <meta-data
+301-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\e2139c7ed014eb9d77950d0611df4a2e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+302                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+302-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\e2139c7ed014eb9d77950d0611df4a2e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+303                android:value="androidx.startup" />
+303-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\e2139c7ed014eb9d77950d0611df4a2e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+304        </provider>
+305        <provider
+305-->[com.squareup.picasso:picasso:2.71828] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\326b7bafb61db086e0c868ba53beccaf\transformed\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+306            android:name="com.squareup.picasso.PicassoProvider"
+306-->[com.squareup.picasso:picasso:2.71828] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\326b7bafb61db086e0c868ba53beccaf\transformed\picasso-2.71828\AndroidManifest.xml:9:13-64
+307            android:authorities="com.example.mycollegeucet.com.squareup.picasso"
+307-->[com.squareup.picasso:picasso:2.71828] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\326b7bafb61db086e0c868ba53beccaf\transformed\picasso-2.71828\AndroidManifest.xml:10:13-72
+308            android:exported="false" />
+308-->[com.squareup.picasso:picasso:2.71828] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\326b7bafb61db086e0c868ba53beccaf\transformed\picasso-2.71828\AndroidManifest.xml:11:13-37
+309
+310        <receiver
+310-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\e2139c7ed014eb9d77950d0611df4a2e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+311            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+311-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\e2139c7ed014eb9d77950d0611df4a2e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+312            android:directBootAware="false"
+312-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\e2139c7ed014eb9d77950d0611df4a2e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+313            android:enabled="true"
+313-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\e2139c7ed014eb9d77950d0611df4a2e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+314            android:exported="true"
+314-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\e2139c7ed014eb9d77950d0611df4a2e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+315            android:permission="android.permission.DUMP" >
+315-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\e2139c7ed014eb9d77950d0611df4a2e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+316            <intent-filter>
+316-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\e2139c7ed014eb9d77950d0611df4a2e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+317                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+317-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\e2139c7ed014eb9d77950d0611df4a2e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+317-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\e2139c7ed014eb9d77950d0611df4a2e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+318            </intent-filter>
+319            <intent-filter>
+319-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\e2139c7ed014eb9d77950d0611df4a2e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+320                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+320-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\e2139c7ed014eb9d77950d0611df4a2e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+320-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\e2139c7ed014eb9d77950d0611df4a2e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+321            </intent-filter>
+322            <intent-filter>
+322-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\e2139c7ed014eb9d77950d0611df4a2e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+323                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+323-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\e2139c7ed014eb9d77950d0611df4a2e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+323-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\e2139c7ed014eb9d77950d0611df4a2e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+324            </intent-filter>
+325            <intent-filter>
+325-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\e2139c7ed014eb9d77950d0611df4a2e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+326                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+326-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\e2139c7ed014eb9d77950d0611df4a2e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+326-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\e2139c7ed014eb9d77950d0611df4a2e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+327            </intent-filter>
+328        </receiver> <!-- The activities will be merged into the manifest of the hosting app. -->
+329        <activity
+329-->[com.google.android.play:core-common:2.0.3] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\856aa6d9ce40a68a7428d64fb7ad46e3\transformed\core-common-2.0.3\AndroidManifest.xml:14:9-18:65
+330            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+330-->[com.google.android.play:core-common:2.0.3] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\856aa6d9ce40a68a7428d64fb7ad46e3\transformed\core-common-2.0.3\AndroidManifest.xml:15:13-93
+331            android:exported="false"
+331-->[com.google.android.play:core-common:2.0.3] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\856aa6d9ce40a68a7428d64fb7ad46e3\transformed\core-common-2.0.3\AndroidManifest.xml:16:13-37
+332            android:stateNotNeeded="true"
+332-->[com.google.android.play:core-common:2.0.3] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\856aa6d9ce40a68a7428d64fb7ad46e3\transformed\core-common-2.0.3\AndroidManifest.xml:17:13-42
+333            android:theme="@style/Theme.PlayCore.Transparent" />
+333-->[com.google.android.play:core-common:2.0.3] C:\Users\Anudip\.gradle\caches\8.14.2\transforms\856aa6d9ce40a68a7428d64fb7ad46e3\transformed\core-common-2.0.3\AndroidManifest.xml:18:13-62
+334    </application>
+335
+336</manifest>

@@ -1,0 +1,226 @@
+[
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/drawable_login_icon.jpg.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/drawable/login_icon.jpg"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/drawable_facebooklogo.png.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/drawable/facebooklogo.png"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/drawable_extraroundcorner.xml.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/drawable/extraroundcorner.xml"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/drawable_banner_placeholder.jpg.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/drawable/banner_placeholder.jpg"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/drawable_gradient.xml.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/drawable/gradient.xml"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/drawable_address_icon.png.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/drawable/address_icon.png"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/font_anek_latin_thin.xml.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/font/anek_latin_thin.xml"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/layout_activity_edit_profile.xml.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/layout/activity_edit_profile.xml"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/xml_backup_rules.xml.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/drawable_baseline_photo_camera_24.xml.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/drawable/baseline_photo_camera_24.xml"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/drawable_college1.jpeg.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/drawable/college1.jpeg"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/drawable_cart_icon.xml.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/drawable/cart_icon.xml"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/layout_activity_sign_in.xml.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/layout/activity_sign_in.xml"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/layout_activity_profile.xml.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/drawable_college2.jpeg.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/drawable/college2.jpeg"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/layout_activity_sign_up.xml.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/drawable_email_icon.jpg.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/drawable/email_icon.jpg"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/layout_activity_main.xml.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/drawable_phone_icon.jpg.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/drawable/phone_icon.jpg"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/font_prociono.xml.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/font/prociono.xml"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/drawable_register_icon.png.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/drawable/register_icon.png"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/drawable_password_icon.png.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/drawable/password_icon.png"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/layout_activity_home.xml.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/layout_activity_forgot_password.xml.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/layout/activity_forgot_password.xml"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/drawable_college3.jpeg.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/drawable/college3.jpeg"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/drawable_baseline_person_24.xml.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/drawable/baseline_person_24.xml"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/drawable_round_button.xml.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/drawable/round_button.xml"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/font_bai_jamjuree_extralight.xml.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/font/bai_jamjuree_extralight.xml"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/drawable_college4.jpeg.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/drawable/college4.jpeg"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/drawable_female_icon.jpg.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/drawable/female_icon.jpg"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/drawable_male_icon.jpg.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/drawable/male_icon.jpg"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/drawable_baseline_close_24.xml.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/drawable/baseline_close_24.xml"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/drawable_rondedcorner.xml.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/drawable/rondedcorner.xml"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/font_arvo_bold.xml.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/font/arvo_bold.xml"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/drawable_logout_icon.png.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/drawable/logout_icon.png"
+    },
+    {
+        "merged": "com.example.mycollegeucet.app-release-70:/drawable_edit_icon.png.flat",
+        "source": "com.example.mycollegeucet.app-main-71:/drawable/edit_icon.png"
+    }
+]
