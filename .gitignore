@@ -1,0 +1,60 @@
+# Ignore build output
+/build/
+/bin/
+/out/
+
+# Ignore IntelliJ project files
+*.iml
+.idea/
+
+# Ignore Gradle files
+.gradle/
+build/
+
+# Ignore local configuration
+/local.properties
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore generated files
+generated/
+captures/
+*.apk
+*.ap_
+
+# Kotlin-specific
+*.kts~
+
+# Java-specific
+*.class
+
+# Ignore crashlytics and fabric files
+crashlytics-build.properties
+fabric.properties
+
+# Ignore test results
+test-results/
+*.hprof
+
+# Android Studio Navigation Editor temp files
+.navigation/
+
+# Ignore virtual machine files
+*.swp
+*.swo
+
+# Ignore JetBrains IDE settings
+.idea/
+*.ipr
+*.iws
+
+# Ignore Maven target folder (if using Maven)
+target/
+
+# Ignore local keystore files (if any)
+*.jks
